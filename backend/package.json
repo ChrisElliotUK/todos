@@ -1,0 +1,32 @@
+{
+  "name": "todos-backend",
+  "version": "0.0.1",
+  "description": "A todo app and backend using express js and flutter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --collectCoverage",
+    "dev:build": "tsc",
+    "dev:serve": "nodemon -e js -w lib dist/main.js"
+  },
+  "author": "Christopher Elliot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.2",
+    "@types/mongodb": "^4.0.7",
+    "@types/node": "^17.0.21",
+    "@types/pg": "^8.6.5",
+    "@types/supertest": "^2.0.12",
+    "concurrently": "^8.2.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
